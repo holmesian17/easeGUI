@@ -18,6 +18,14 @@ volume = ["volume", "sound", "loud", "loudness", "quiet", "quieter", "louder", "
 
 brightness = ["brightness", "brighten", "dim", "dimmer", "light", "lighten", "bright"]
 
+printing = ["print", "printing"]
+
+save = ["save", "saving", "keep", "download"]
+
+flashdrive = ["flash drive", "flashdrive", "usb", "usb drive", "usbdrive", "thumbdrive", "usb stick", "thumbstick", "stick"]
+
+logout = ["logout", "close", "end"] # will need a prompt for are you sure you want to close out of everything
+
 def configure():
 
     # if the paths for these different things are the same on all windows/linux/macs, we could just have them select which one they want to use
@@ -73,6 +81,7 @@ def runProgram():
 
     elif x in brightness:
         open the custom gui brightness slider
+    
         
 
 
